@@ -1,0 +1,24 @@
+{
+  "name": "mobx_rewire",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "mobx": "^5.1.1",
+    "mobx-react": "^5.2.8",
+    "mobx-react-form": "^1.35.1",
+    "react": "^16.5.1",
+    "react-app-rewire-mobx": "^1.0.9",
+    "react-bootstrap": "^0.32.4",
+    "react-dom": "^16.5.1",
+    "react-scripts": "1.1.5"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "react-app-rewired": "^1.6.2"
+  }
+}
